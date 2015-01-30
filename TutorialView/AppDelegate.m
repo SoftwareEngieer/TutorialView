@@ -35,6 +35,7 @@
         self.window.rootViewController = tutorialView;
     }
     
+    [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyAndVisible];
     return YES;
 }

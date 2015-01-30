@@ -37,6 +37,8 @@
     newFeatureTutorialImage2 = [UIImage imageNamed:@"bg2"];
     newFeatureTutorialImage3 = [UIImage imageNamed:@"bg3"];
     
+    [self.lblWelcome setFrame:CGRectMake((([UIScreen mainScreen].bounds.size.width - self.lblWelcome.frame.size.width) / 2.0), (([UIScreen mainScreen].bounds.size.height - self.lblWelcome.frame.size.height) / 2.0),self.lblWelcome.frame.size.width,self.lblWelcome.frame.size.height)];
+    
     NewFeatureTutorialView *newFeatureTutorialView = [[NewFeatureTutorialView alloc]initWithFrame:CGRectMake(0.0, 0.0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)];
     newFeatureTutorialView.delegate = self;
     

@@ -10,4 +10,7 @@
 
 @interface TutorialViewController : UIViewController<NewFeatureTutorialViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *lblWelcome;
+
+
 @end

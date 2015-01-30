@@ -46,6 +46,7 @@
         
         skipButton = [[UIButton alloc] initWithFrame:CGRectMake(newFeatureTutorialScroll.frame.size.width - 65.0,pageControl.frame.origin.y - ((17.0 - pageControl.frame.size.height)/2), 80.0, 17.0)];
         [skipButton setTitle:NSLocalizedString(@"SKIP", nil) forState:UIControlStateNormal];
+        [skipButton setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
         [skipButton addTarget:self action:@selector(skipIntroduction) forControlEvents:UIControlEventTouchUpInside];
         
         [self addSubview:newFeatureTutorialScroll];
@@ -64,7 +65,7 @@
 }
 
 - (void)skipIntroduction {
-    [self hideWithFadeOutDuration:0.5];
+    [self hideWithFadeOutDuration:0.7];
 }
 
 - (void)hideWithFadeOutDuration:(CGFloat)duration {
