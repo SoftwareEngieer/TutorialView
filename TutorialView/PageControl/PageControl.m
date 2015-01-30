@@ -3,7 +3,7 @@
 //  Markafoni
 //
 //  Created by Omer Aktuna on 6/3/14.
-//  Copyright (c) 2014 Markafoni. All rights reserved.
+//  Copyright (c) 2014 Omer Aktuna. All rights reserved.
 //
 
 #import "PageControl.h"
